@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel = "stylesheet" href="index.css">
+    <title> Alarm Clock </title>
+</head>
+<body>
+        <div class="center-content">
+
+            <div>
+                <!-- Displaying the Actual Time  -->
+                <h1 id="real"> Real Time </h1>
+
+                <!-- Set the time for new Alarm -->
+                <div class="alarm-time">
+                    <label>
+                        <div>
+                            <select class="time" id="hr"></select>
+                        </div>
+                    </label>
+                    <label>
+                        <div>
+                            <select class="time" id="min"></select>
+                        </div>
+                    </label>
+                    <label>
+                        <div>
+                            <select class="time" id="sec"></select>
+                        </div>
+                    </label>
+                    <label>
+                        <div>
+                            <select class="time" id="am-pm"></select>
+                        </div>
+                    </label>
+                </div>
+            </div>
+
+            <!-- Adding new alarm to the list of alarm -->
+            <button id="set-button"> Set Alarm </button>
+
+            <!-- Clear button to stop the alarm -->
+
+            <button id="clear-button"> Clear Alarm </button>
+
+            <div>
+                <h2 class="alarm-list"> ALARM LIST </h2>
+
+                <!-- List of alarms listed using unordered list -->
+
+                <ul id="pending-alarms"> </ul>
+            </div>
+        </div>
+
+        <script src="index.js"></script>
+</body>
+</html>
