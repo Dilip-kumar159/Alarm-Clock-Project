@@ -20,6 +20,9 @@ body{
     text-shadow: 1px 1px rgba(0, 0, 0, 0.3);
 }
 
+.title{
+    letter-spacing: 0.3em;
+}
 .alarm-time{
     display: flex;
     flex-direction: row;
